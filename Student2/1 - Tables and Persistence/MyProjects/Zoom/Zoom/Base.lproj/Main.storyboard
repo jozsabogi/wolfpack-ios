@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zoom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xoi-tt-J2h">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="J2W-pK-HTf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="height" secondItem="wlg-Cq-8Xc" secondAttribute="height" id="Qyg-C1-SC7"/>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="trailing" secondItem="ttl-iZ-FS1" secondAttribute="trailing" id="RL1-Di-clP"/>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="width" secondItem="wlg-Cq-8Xc" secondAttribute="width" id="izn-cq-fnB"/>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="top" secondItem="ttl-iZ-FS1" secondAttribute="top" id="mH0-KQ-OAk"/>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="bottom" secondItem="ttl-iZ-FS1" secondAttribute="bottom" id="vWf-9c-Hmv"/>
+                                    <constraint firstItem="J2W-pK-HTf" firstAttribute="leading" secondItem="ttl-iZ-FS1" secondAttribute="leading" id="y0g-dN-ocO"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ttl-iZ-FS1"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="wlg-Cq-8Xc"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xoi-tt-J2h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1tL-WP-94U"/>
+                            <constraint firstItem="Xoi-tt-J2h" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="NZ0-6I-CK5"/>
+                            <constraint firstItem="Xoi-tt-J2h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dxW-sS-nJb"/>
+                            <constraint firstItem="Xoi-tt-J2h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="z21-5e-fjB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="J2W-pK-HTf" id="Tlo-fo-SD8"/>
+                        <outlet property="scrollView" destination="Xoi-tt-J2h" id="8qc-H9-3lE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image1" width="645" height="403"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1830B16623A3064200FF29B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B16523A3064200FF29B5 /* AppDelegate.swift */; };
-		1830B16823A3064200FF29B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B16723A3064200FF29B5 /* SceneDelegate.swift */; };
-		1830B16D23A3064200FF29B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830B16B23A3064200FF29B5 /* Main.storyboard */; };
-		1830B16F23A3064300FF29B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1830B16E23A3064300FF29B5 /* Assets.xcassets */; };
-		1830B17223A3064300FF29B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */; };
-		1830B17A23A3067E00FF29B5 /* AthleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */; };
-		B41D774926B7F7800005A50B /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D774826B7F7800005A50B /* Athlete.swift */; };
-		B41D774B26B7F8A90005A50B /* AthleteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D774A26B7F8A90005A50B /* AthleteFormViewController.swift */; };
+		B41D775926B821FB0005A50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D775826B821FB0005A50B /* AppDelegate.swift */; };
+		B41D775B26B821FB0005A50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D775A26B821FB0005A50B /* SceneDelegate.swift */; };
+		B41D775D26B821FB0005A50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D775C26B821FB0005A50B /* ViewController.swift */; };
+		B41D776026B821FB0005A50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41D775E26B821FB0005A50B /* Main.storyboard */; };
+		B41D776226B821FF0005A50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41D776126B821FF0005A50B /* Assets.xcassets */; };
+		B41D776526B821FF0005A50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41D776326B821FF0005A50B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1830B16223A3064200FF29B5 /* FavoriteAthlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteAthlete.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1830B16523A3064200FF29B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1830B16723A3064200FF29B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1830B16C23A3064200FF29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1830B16E23A3064300FF29B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1830B17123A3064300FF29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1830B17323A3064300FF29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteTableViewController.swift; sourceTree = "<group>"; };
-		B41D774826B7F7800005A50B /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
-		B41D774A26B7F8A90005A50B /* AthleteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteFormViewController.swift; sourceTree = "<group>"; };
+		B41D775526B821FB0005A50B /* ScrollingForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41D775826B821FB0005A50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B41D775A26B821FB0005A50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B41D775C26B821FB0005A50B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B41D775F26B821FB0005A50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B41D776126B821FF0005A50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B41D776426B821FF0005A50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B41D776626B821FF0005A50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1830B15F23A3064200FF29B5 /* Frameworks */ = {
+		B41D775226B821FB0005A50B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1830B15923A3064200FF29B5 = {
+		B41D774C26B821FB0005A50B = {
 			isa = PBXGroup;
 			children = (
-				1830B16423A3064200FF29B5 /* FavoriteAthlete */,
-				1830B16323A3064200FF29B5 /* Products */,
+				B41D775726B821FB0005A50B /* ScrollingForm */,
+				B41D775626B821FB0005A50B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1830B16323A3064200FF29B5 /* Products */ = {
+		B41D775626B821FB0005A50B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1830B16223A3064200FF29B5 /* FavoriteAthlete.app */,
+				B41D775526B821FB0005A50B /* ScrollingForm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1830B16423A3064200FF29B5 /* FavoriteAthlete */ = {
+		B41D775726B821FB0005A50B /* ScrollingForm */ = {
 			isa = PBXGroup;
 			children = (
-				1830B16523A3064200FF29B5 /* AppDelegate.swift */,
-				1830B16723A3064200FF29B5 /* SceneDelegate.swift */,
-				1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */,
-				1830B16B23A3064200FF29B5 /* Main.storyboard */,
-				B41D774A26B7F8A90005A50B /* AthleteFormViewController.swift */,
-				B41D774826B7F7800005A50B /* Athlete.swift */,
-				1830B16E23A3064300FF29B5 /* Assets.xcassets */,
-				1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */,
-				1830B17323A3064300FF29B5 /* Info.plist */,
+				B41D775826B821FB0005A50B /* AppDelegate.swift */,
+				B41D775A26B821FB0005A50B /* SceneDelegate.swift */,
+				B41D775C26B821FB0005A50B /* ViewController.swift */,
+				B41D775E26B821FB0005A50B /* Main.storyboard */,
+				B41D776126B821FF0005A50B /* Assets.xcassets */,
+				B41D776326B821FF0005A50B /* LaunchScreen.storyboard */,
+				B41D776626B821FF0005A50B /* Info.plist */,
 			);
-			path = FavoriteAthlete;
+			path = ScrollingForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1830B16123A3064200FF29B5 /* FavoriteAthlete */ = {
+		B41D775426B821FB0005A50B /* ScrollingForm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1830B17623A3064300FF29B5 /* Build configuration list for PBXNativeTarget "FavoriteAthlete" */;
+			buildConfigurationList = B41D776926B821FF0005A50B /* Build configuration list for PBXNativeTarget "ScrollingForm" */;
 			buildPhases = (
-				1830B15E23A3064200FF29B5 /* Sources */,
-				1830B15F23A3064200FF29B5 /* Frameworks */,
-				1830B16023A3064200FF29B5 /* Resources */,
+				B41D775126B821FB0005A50B /* Sources */,
+				B41D775226B821FB0005A50B /* Frameworks */,
+				B41D775326B821FB0005A50B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FavoriteAthlete;
-			productName = FavoriteAthlete;
-			productReference = 1830B16223A3064200FF29B5 /* FavoriteAthlete.app */;
+			name = ScrollingForm;
+			productName = ScrollingForm;
+			productReference = B41D775526B821FB0005A50B /* ScrollingForm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1830B15A23A3064200FF29B5 /* Project object */ = {
+		B41D774D26B821FB0005A50B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					1830B16123A3064200FF29B5 = {
-						CreatedOnToolsVersion = 11.2.1;
+					B41D775426B821FB0005A50B = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 1830B15D23A3064200FF29B5 /* Build configuration list for PBXProject "FavoriteAthlete" */;
+			buildConfigurationList = B41D775026B821FB0005A50B /* Build configuration list for PBXProject "ScrollingForm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1830B15923A3064200FF29B5;
-			productRefGroup = 1830B16323A3064200FF29B5 /* Products */;
+			mainGroup = B41D774C26B821FB0005A50B;
+			productRefGroup = B41D775626B821FB0005A50B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1830B16123A3064200FF29B5 /* FavoriteAthlete */,
+				B41D775426B821FB0005A50B /* ScrollingForm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1830B16023A3064200FF29B5 /* Resources */ = {
+		B41D775326B821FB0005A50B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1830B17223A3064300FF29B5 /* LaunchScreen.storyboard in Resources */,
-				1830B16F23A3064300FF29B5 /* Assets.xcassets in Resources */,
-				1830B16D23A3064200FF29B5 /* Main.storyboard in Resources */,
+				B41D776526B821FF0005A50B /* LaunchScreen.storyboard in Resources */,
+				B41D776226B821FF0005A50B /* Assets.xcassets in Resources */,
+				B41D776026B821FB0005A50B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1830B15E23A3064200FF29B5 /* Sources */ = {
+		B41D775126B821FB0005A50B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41D774B26B7F8A90005A50B /* AthleteFormViewController.swift in Sources */,
-				1830B16623A3064200FF29B5 /* AppDelegate.swift in Sources */,
-				1830B16823A3064200FF29B5 /* SceneDelegate.swift in Sources */,
-				1830B17A23A3067E00FF29B5 /* AthleteTableViewController.swift in Sources */,
-				B41D774926B7F7800005A50B /* Athlete.swift in Sources */,
+				B41D775D26B821FB0005A50B /* ViewController.swift in Sources */,
+				B41D775926B821FB0005A50B /* AppDelegate.swift in Sources */,
+				B41D775B26B821FB0005A50B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1830B16B23A3064200FF29B5 /* Main.storyboard */ = {
+		B41D775E26B821FB0005A50B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1830B16C23A3064200FF29B5 /* Base */,
+				B41D775F26B821FB0005A50B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */ = {
+		B41D776326B821FF0005A50B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1830B17123A3064300FF29B5 /* Base */,
+				B41D776426B821FF0005A50B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1830B17423A3064300FF29B5 /* Debug */ = {
+		B41D776726B821FF0005A50B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,6 +191,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -223,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -233,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		1830B17523A3064300FF29B5 /* Release */ = {
+		B41D776826B821FF0005A50B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,6 +252,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -277,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,34 +281,36 @@
 			};
 			name = Release;
 		};
-		1830B17723A3064300FF29B5 /* Debug */ = {
+		B41D776A26B821FF0005A50B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FavoriteAthlete/Info.plist;
+				INFOPLIST_FILE = ScrollingForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavoriteAthlete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.ScrollingForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1830B17823A3064300FF29B5 /* Release */ = {
+		B41D776B26B821FF0005A50B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FavoriteAthlete/Info.plist;
+				INFOPLIST_FILE = ScrollingForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavoriteAthlete;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.ScrollingForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1830B15D23A3064200FF29B5 /* Build configuration list for PBXProject "FavoriteAthlete" */ = {
+		B41D775026B821FB0005A50B /* Build configuration list for PBXProject "ScrollingForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1830B17423A3064300FF29B5 /* Debug */,
-				1830B17523A3064300FF29B5 /* Release */,
+				B41D776726B821FF0005A50B /* Debug */,
+				B41D776826B821FF0005A50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1830B17623A3064300FF29B5 /* Build configuration list for PBXNativeTarget "FavoriteAthlete" */ = {
+		B41D776926B821FF0005A50B /* Build configuration list for PBXNativeTarget "ScrollingForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1830B17723A3064300FF29B5 /* Debug */,
-				1830B17823A3064300FF29B5 /* Release */,
+				B41D776A26B821FF0005A50B /* Debug */,
+				B41D776B26B821FF0005A50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1830B15A23A3064200FF29B5 /* Project object */;
+	rootObject = B41D774D26B821FB0005A50B /* Project object */;
 }
