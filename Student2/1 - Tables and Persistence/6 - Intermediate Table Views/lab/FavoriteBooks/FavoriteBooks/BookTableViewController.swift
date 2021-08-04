@@ -82,18 +82,5 @@ class BookTableViewController: UITableViewController {
         }
     }
     
-    @IBSegueAction func editBook(_ coder: NSCoder, sender: Any?) -> BookFormTableViewController? {
-        
-        print("Edit")
-        
-        guard let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) else {
-            return nil
-        }
-        
-        let book = books[indexPath.row]
-        
-        return BookFormTableViewController(coder: coder, book: book)
-    }
-    
     
 }
