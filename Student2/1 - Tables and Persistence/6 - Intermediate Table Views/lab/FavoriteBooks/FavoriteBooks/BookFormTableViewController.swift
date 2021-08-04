@@ -1,13 +1,21 @@
+//
+//  BookFormTableViewController.swift
+//  FavoriteBooks
+//
+//  Created by Wolfpack Digital on 03/08/2021.
+//
+
 import UIKit
 
-class BookFormViewController: UIViewController {
-
-    var book: Book?
+class BookFormTableViewController: UITableViewController {
     
+    var book: Book?
+
     @IBOutlet var titleTextField: UITextField!
     @IBOutlet var authorTextField: UITextField!
     @IBOutlet var genreTextField: UITextField!
     @IBOutlet var lengthTextField: UITextField!
+    @IBOutlet var saveButton: UIButton!
     
     init?(coder: NSCoder, book: Book?) {
         self.book = book
@@ -22,6 +30,8 @@ class BookFormViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.allowsSelection = false
+        
         updateView()
     }
     
@@ -35,13 +45,14 @@ class BookFormViewController: UIViewController {
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
+        print("Save")
         guard let title = titleTextField.text,
             let author = authorTextField.text,
             let genre = genreTextField.text,
             let length = lengthTextField.text else {return}
         
         book = Book(title: title, author: author, genre: genre, length: length)
-        performSegue(withIdentifier: "UnwindToBookTable", sender: self)
+        performSegue(withIdentifier: "UnwindToBookTable2", sender: self)
     }
-
+    
 }
